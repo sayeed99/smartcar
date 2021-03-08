@@ -1,0 +1,14 @@
+{
+  "domain": "smartcar",
+  "name": "Smart Car",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/smartcar",
+  "requirements": ["smartcar==5.1.0","requests_oauthlib==1.3.0"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@sayeed99"
+  ]
+}
