@@ -46,7 +46,6 @@ class PlaceholderHub:
         callback_url = f"{get_url(self.hass, prefer_external=True)}{AUTH_CALLBACK_PATH}"
         _LOGGER.exception(callback_url)
         callback_url = "https://ha.dumpin.in"
-        callback_url = "http://localhost:8123"
         scoper = [
             "read_odometer",
             "required:read_location",
